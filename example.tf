@@ -21,7 +21,7 @@ resource "aws_instance" "example" {
     volume_type           = "gp2"
     encrypted             = true
     delete_on_termination = true
-  
+   }
 
   tags = {
     Name = "ExampleInstance"
