@@ -17,9 +17,9 @@ resource "aws_instance" "example" {
   instance_type = "t2.micro"
 
  root_block_device {
-    volume_size           = "20"
-    volume_type           = "gp2"
-    encrypted             = true
+  #  volume_size           = "20"
+  #  volume_type           = "gp2"
+    encrypted             = false
     delete_on_termination = true
    }
 
